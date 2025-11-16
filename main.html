@@ -1,15 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
+<style>
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-        
-</body>
-</html>
+    thead {
+        background: #4a90e2;
+        color: white;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid #d4d4d4;
+        text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f5faff;
+    }
+
+    tbody tr:hover {
+        background-color: #e2f0ff;
+        transition: 0.3s;
+    }
+
+    caption {
+        caption-side: top;
+        margin-bottom: 10px;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+
+<table>
+    <caption>Top 5 Player Stats – Battle Arena</caption>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Matches Played</th>
+            <th>K/D Ratio</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>ShadowSlayer</td>
+            <td>120</td>
+            <td>4.9</td>
+            <td>9850</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>NeonWolf</td>
+            <td>110</td>
+            <td>4.2</td>
+            <td>9300</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DragonByte</td>
+            <td>102</td>
+            <td>3.8</td>
+            <td>8800</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ElectroFox</td>
+            <td>95</td>
+            <td>3.5</td>
+            <td>8420</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>CrimsonKnight</td>
+            <td>90</td>
+            <td>3.2</td>
+            <td>7990</td>
+        </tr>
+    </tbody>
+</table>
